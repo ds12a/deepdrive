@@ -5,7 +5,7 @@ The easiest way to experiment with self-driving AI
 ## Simulator requirements
 
 - Linux
-- Python 3.6+
+- Python 3.6 - 3.7?
 - 10GB disk space
 - 8GB RAM
 
