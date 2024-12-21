@@ -131,12 +131,12 @@ def main():
     # # TODO: Remove dev0 once 3.0 is stable
     # run_command_with_sarge(py + ' -m pip install {pip_args} "deepdrive > {major_minor_version}.*dev0"'.format(
 
-    bindings_version = get_latest_valid_bindings()
+    # bindings_version = get_latest_valid_bindings()
 
-    print(f'Installing latest valid sim-bindings {bindings_version}')
+    # print(f'Installing latest valid sim-bindings {bindings_version}')
 
     run_command_with_sarge(
-        f'{py} -m pip install {pip_args} "deepdrive=={bindings_version}.dev0"')
+        f'{py} -m pip install {pip_args} "deepdrive==3.1.20210202221642.dev0"')
 
     # noinspection PyUnresolvedReferences
     import config.check_bindings
